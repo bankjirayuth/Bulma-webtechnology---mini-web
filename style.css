@@ -1,0 +1,59 @@
+
+body{
+    background-color:rgba(20, 20, 20, 0.966);
+    font-family: 'Kanit', sans-serif;
+}
+
+.mar{
+    margin-top: 110px;
+    margin-left: 150px;
+}
+
+div{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header{
+    border:0;
+    background: none;
+    margin: 50px auto;
+    text-align: center;
+    /* border: 2px solid #3498db; */
+    border: 2px solid #21c7ae;
+    padding: 20px 10px;
+    width: 70%;
+    outline: none;
+    border-radius: 24px;
+
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width:95%;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+.zoom2 {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width:110%;
+    margin: 0 auto;
+  }
+  .zoom2:hover {
+    transform: scale(1.5);
+  }
+
+.foot{
+  bottom: 0;
+  background-color: #34bda8;
+  width: 100%;
+  height: 50px;
+}
+
